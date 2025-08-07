@@ -121,7 +121,7 @@ chmod +x md2pdf
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a GNU General Public License v3.0 - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto está licenciado sob a GPL - General Public License v3.0 - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ## 👨‍💻 Autor
 
