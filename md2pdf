@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Check if Node.js is installed
+if ! command -v node &> /dev/null; then
+    echo "Error: Node.js is not installed"
+    exit 1
+fi
+
+# Check if arguments are provided
+if [ $# -eq 0 ]; then
+    echo "Usage: ./md2pdf <markdown_file> [output_pdf_file]"
+    exit 1
+fi
+
+# Execute the Node.js script
+node "$(dirname "$0")/index.js" "$@"

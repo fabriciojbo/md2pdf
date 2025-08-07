@@ -1,0 +1,16 @@
+{
+  "name": "md2pdf",
+  "description": "Convert Markdown to PDF",
+  "version": "1.0.0",
+  "author": "Fabricio Pereira Rabelo",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "puppeteer": "^24.10.0"
+  },
+  "packageManager": "pnpm@10.11.1"
+}
